@@ -2,7 +2,7 @@
 
 .data
 # Configuratie bestandsnamen en berichten
-mazeFilename:    .asciiz "input_1.txt"  			                # Bestandsnaam voor doolhof
+mazeFilename:    .asciiz "input_1.txt"  			                # Bestandsnaam voor doolhof (relatief path)
 buffer:          .space  4096               			                # 4096 buffer voor inlezen bestand
 victoryMessage:  .asciiz "Je hebt het spel gewonnen! \n"
 errorMessage:    .asciiz "Error bij het lezen van doolhofbestand! \n"
@@ -81,7 +81,7 @@ do_move:
     bne $s1, $t1, game_continue
 
     # gewonnen
-    la $a0, victoryMessage								# victory message print nog niet
+    la $a0, victoryMessage								
     li $v0, 4
     syscall
     
