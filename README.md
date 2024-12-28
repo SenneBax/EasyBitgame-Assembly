@@ -22,7 +22,7 @@ The game must be played using the qzsd keys (azerty form of wasd).
 
 your own maze is easy to implement by adding a .txt with the necessary symbols.
 As an example there is now the file input_1.txt, but it is also possible with others.
-When wanting to use your own input note that the relative path should also be changed in the assembly code.
+When wanting to use your own input, note that the relative path should also be changed in the assembly code.
 
  
 
