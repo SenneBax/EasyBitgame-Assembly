@@ -26,5 +26,5 @@ your own maze is easy to implement by adding a .txt with the necessary symbols.
 As an example there is now the file input_1.txt, but it is also possible with others.
 When wanting to use your own input, note that the relative path should also be changed in the assembly code.
 
-The grade for this assigment was 100%.
+The grade for this assignment was 100%.
 
